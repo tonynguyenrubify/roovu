@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "roovu"
-  s.version = ""
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tony Nguyen"]
@@ -23,7 +23,15 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "VERSION",
+    "app/assets/javascripts/jquery.tokeninput.js",
+    "app/assets/stylesheets/token-input-facebook.css",
+    "app/assets/stylesheets/token-input-mac.css",
+    "app/assets/stylesheets/token-input.css",
+    "app/helpers/roovu/token_input_helper.rb",
+    "lib/generators/roovu/install_generator.rb",
     "lib/roovu.rb",
+    "roovu.gemspec",
     "test/helper.rb",
     "test/test_roovu.rb"
   ]
