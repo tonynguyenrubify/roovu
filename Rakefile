@@ -21,6 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{TODO: longer description of your gem}
   gem.email = "truonggiangcse@yahoo.com"
   gem.authors = ["Tony Nguyen"]
+  gem.version = File.exist?('VERSION') ? File.read('VERSION') : ""
   # dependencies defined in Gemfile
 end
 #Jeweler::RubygemsDotOrgTasks.new
