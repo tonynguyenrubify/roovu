@@ -1,4 +1,4 @@
-module ThePerfectGem::TokenInputHelper
+module Roovu::TokenInputHelper
   def token_input_field(model_instance, relationship_name_pluralize, form)
     relationship_name_pluralize = relationship_name_pluralize.to_s
     relationship_name = relationship_name_pluralize.singularize
